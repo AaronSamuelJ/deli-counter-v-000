@@ -14,7 +14,7 @@ def line(arg)
 end
 def take_a_number(arr, name)
   if arr.size == 0
-    arr << name 
+    arr << name
     puts "Welcome, #{name}. You are number 1 in line."
   end
 end
