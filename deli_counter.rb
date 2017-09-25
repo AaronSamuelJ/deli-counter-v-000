@@ -9,7 +9,7 @@ def line(arg)
       output << "#{counter}. #{person} "
       counter += 1
     end
-    
+
     puts "The line is currently: #{output}".chomp(" ")
   end
 end
