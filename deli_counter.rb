@@ -13,7 +13,5 @@ def line(arg)
   end
 end
 def take_a_number(arr, name)
-  if arr.size == 0
-    arr << name
-  end
+  binding.pry
 end
