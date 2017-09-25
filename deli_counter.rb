@@ -12,6 +12,7 @@ def line(arg)
     puts "The line is currently: #{output}".chomp(" ")
   end
 end
+
 def take_a_number(arr, name)
   if arr.size == 0
     arr << name
@@ -19,5 +20,11 @@ def take_a_number(arr, name)
   elsif arr.size > 0
     arr << name
     puts "Welcome, #{name}. You are number #{arr.size} in line."
+  end
+end
+
+def now_serving(arr)
+  if arr.size == 0
+    puts "There is nobody in line."
   end
 end
