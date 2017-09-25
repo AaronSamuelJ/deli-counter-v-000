@@ -18,6 +18,6 @@ def take_a_number(arr, name)
     puts "Welcome, #{name}. You are number 1 in line."
   elsif arr.size > 0
     arr << name
-
+    puts "Welcome, #{name}. You are number #{arr.size} in line."
   end
 end
