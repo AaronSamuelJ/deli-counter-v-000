@@ -10,6 +10,6 @@ def line(arg)
       output << "#{counter}. #{person} "
       counter += 1
     end
-    output.chomp
+    print output.chomp
   end
 end
