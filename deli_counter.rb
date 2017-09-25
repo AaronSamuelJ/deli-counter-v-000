@@ -9,7 +9,11 @@ def line(arg)
       output << "#{counter}. #{person} "
       counter += 1
     end
-
     puts "The line is currently: #{output}".chomp(" ")
+  end
+end
+def take_a_number(arr, name)
+  if arr.size == 0
+    arr << name
   end
 end
