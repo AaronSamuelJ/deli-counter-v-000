@@ -1,3 +1,3 @@
 def line(katz_deli)
-  puts "There is nobody in line"
+  puts "The line is currently empty."
 end
